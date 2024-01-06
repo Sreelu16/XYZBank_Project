@@ -1,0 +1,64 @@
+[
+  {
+    "pageName": "managerpage",
+    "name": "addCutomerTab",
+    "locateUsing": "xpath",
+    "locator": "//button[@class='btn btn-lg tab' and contains(text(),'Add Customer')]"
+  },
+  {
+    "pageName": "managerpage",
+    "name": "openAccountTab",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Open Account')]"
+  },
+  {
+    "pageName": "managerpage",
+    "name": "customerTab",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Customers')]"
+  },
+  {
+    "pageName": "managerpage",
+    "name": "firstName",
+    "locateUsing": "xpath",
+    "locator": "//label[contains(text(),'First Name')]/following::input[1]"
+  },
+  {
+    "pageName": "managerpage",
+    "name": "lastName",
+    "locateUsing": "xpath",
+    "locator": "//label[contains(text(),'Last Name')]/following::input[1]"
+  },
+  {
+    "pageName": "managerpage",
+    "name": "postCode",
+    "locateUsing": "xpath",
+    "locator": "//label[contains(text(),'Post Code')]/following::input[1]"
+  },
+  {
+    "pageName": "managerpage",
+    "name": "submit",
+    "locateUsing": "xpath",
+    "locator": "//button[@type='submit']"
+  },
+  {
+    "pageName": "managerpage",
+    "name": "deleteCustomer",
+    "locateUsing": "xpath",
+    "locator": "//td[text()='Ron']/following::td[4]//button"
+  },
+
+  {
+    "pageName": "managerpage",
+    "name": "Demo user",
+    "locateUsing": "xpath",
+    "locator": "//select[@ng-model='custId']"
+  },
+  {
+    "pageName": "managerpage",
+    "name": "Dollar",
+    "locateUsing": "xpath",
+    "locator": "//select[@ng-model='currency']"
+  }
+
+  ]

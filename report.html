@@ -1,0 +1,82 @@
+<html>
+<head>
+<title></title>
+<style type="text/css">
+<!--
+h6 {
+    font-size : 25px !important;
+    font-weight : bold !important;
+    text-align : center !important;
+    background-color : #336699 !important;
+    padding : 5px !important;
+    color: #fff !important;
+    margin-bottom : 0px !important;
+}
+.pass tr:nth-child(even) {
+  background-color: #adadad !important;
+}
+.desc {
+background-color : #336699 !important;
+    color: #fff !important;
+    font-size : 15px !important;
+    padding : 5px !important;
+}
+.res {
+font-size : 15px !important;
+    padding : 5px !important;
+}
+h3 {
+text-align: center;
+font-size : 15px !important;
+}
+body {
+border : 1px solid #000
+}
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+span {color: #000000; text-align: left; font-style: Bold;font-size: 1.25em;}
+div {background: #FFFF00 ;}
+-->
+</style>
+<head>
+<body>
+<h6>Test Details and logs</h6>
+<table cellspacing="1" cellpadding="0" border="1" bordercolor="#224466" width="100%" style="table-layout:fixed;">
+<tr>
+<td width="50%" class="desc">TestCase</td>
+<td width="50%" class="res">#testcasename</td>
+</tr>
+    <tr>
+<td width="50%" class="desc">Time Taken (H:MM:SS)</td>
+<td width="50%" class="res">#timetaken</td>
+</tr>
+    <tr>
+<td width="50%" class="desc">Browser</td>
+<td width="50%" class="res">#browser</td>
+</tr>
+</table>
+<h3>Failed Log</h3>
+<table cellspacing="1" cellpadding="0" border="1" bordercolor="#224466" width="100%" style="table-layout:fixed;">
+<tr>
+<th width="5%" style="padding: 5px;">S.No.</th>
+<th width="7%" style="padding: 5px;">Step/Validation</th>
+<th width="40%" style="word-wrap: break-word; padding: 5px;">Message</th>
+<th width="40%" style="padding: 5px;">Result</th>
+<th width="8%" style="padding: 5px;">SnapShot</th>
+</tr>
+<!-- INSERT_FAILED_RESULTS -->
+</table>
+<h3>Passed Log</h3>
+<table class="pass" cellspacing="1" cellpadding="0" border="1" bordercolor="#224466" width="100%" style="table-layout:fixed;">
+<tr>
+<th width="5%" style="padding: 5px;">S.No.</th>
+<th width="7%" style="padding: 5px;">Step/Validation</th>
+<th width="40%" style="word-break: break-all; padding: 5px"><label>Message</label></th>
+<th width="40%" style="padding: 5px;">Result</th>
+<th width="8%" style="padding: 5px;">SnapShot</th>
+</tr>
+<!-- INSERT_RESULTS -->
+</table>
+
+</body>
+</html>

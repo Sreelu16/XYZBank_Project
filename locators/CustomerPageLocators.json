@@ -1,0 +1,111 @@
+[
+  {
+    "pageName": "customerpage",
+    "name": "customerLogin",
+    "locateUsing": "xpath",
+    "locator": "//button[text()='Customer Login']"
+  },
+  {
+    "pageName": "customerpage",
+    "name": "Demo user",
+    "locateUsing": "css",
+    "locator": "#userSelect"
+  },
+   {
+    "pageName": "customerpage",
+    "name": "loginButton",
+    "locateUsing": "xpath",
+    "locator": "//button[text()='Login']"
+  },
+  {
+    "pageName": "customerpage",
+    "name": "userNameLoggedIn",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(@class,'binding')]"
+  },
+{
+  "pageName": "customerpage",
+  "name": "logoutButton",
+  "locateUsing": "xpath",
+  "locator": "//button[text()='Logout']]"
+},
+{
+  "pageName": "customerpage",
+  "name": "accountNumberValue",
+  "locateUsing": "xpath",
+  "locator": "//div[contains(text(),'Account Number')]/strong[1]"
+},
+  {
+  "pageName": "customerpage",
+  "name": "depositButton",
+  "locateUsing": "xpath",
+  "locator": "//button[text()='Deposit']"
+},
+   {
+  "pageName": "customerpage",
+  "name": "depositAmountField",
+  "locateUsing": "xpath",
+  "locator": "//input[@placeholder='amount']"
+},
+
+   {
+  "pageName": "customerpage",
+  "name": "depositTab",
+  "locateUsing": "xpath",
+  "locator": "(//button[contains(text(),'Deposit')])[1]"
+},
+    {
+  "pageName": "customerpage",
+  "name": "depositSuccessMessage",
+  "locateUsing": "xpath",
+  "locator": "//span[@ng-show='message']"
+},
+  {
+  "pageName": "customerpage",
+  "name": "balanceValue",
+  "locateUsing": "xpath",
+  "locator": "//div[contains(text(),'Account Number')]/strong[2]"
+},
+  {
+  "pageName": "customerpage",
+  "name": "currencyValue",
+  "locateUsing": "xpath",
+  "locator": "//div[contains(text(),'Account Number')]/strong[3]"
+},
+   {
+  "pageName": "customerpage",
+  "name": "logoutButton",
+  "locateUsing": "xpath",
+  "locator": "//*[text()='Logout']"
+},
+  {
+    "pageName": "customerpage",
+    "name": "Hermoine Granger",
+    "locateUsing": "css",
+    "locator": "#userSelect"
+  },
+  {
+    "pageName": "customerpage",
+    "name": "withdrawlAmountField",
+    "locateUsing": "xpath",
+    "locator": "//input[@placeholder='amount']"
+  },
+  {
+    "pageName": "customerpage",
+    "name": "withdrawlTab",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Withdrawl')]"
+  },
+  {
+    "pageName": "customerpage",
+    "name": "withdrawButton",
+    "locateUsing": "xpath",
+    "locator": "//button[(text()='Withdraw')]"
+  },
+   {
+  "pageName": "customerpage",
+  "name": "withdrawSuccessMessage",
+  "locateUsing": "xpath",
+  "locator": "//span[@ng-show='message']"
+}
+]

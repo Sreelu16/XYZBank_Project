@@ -1,0 +1,20 @@
+[
+  {
+    "pageName": "homepage",
+    "name": "customerLogin",
+    "locateUsing": "xpath",
+    "locator": "//button[text()='Customer Login']"
+  },
+  {
+    "pageName": "homepage",
+    "name": "managerLogin",
+    "locateUsing": "xpath",
+    "locator": "//button[text()='Bank Manager Login']"
+  },
+  {
+    "pageName": "homepage",
+    "name": "homeButton",
+    "locateUsing": "xpath",
+    "locator": "//button[@class='btn home']"
+  }
+  ]

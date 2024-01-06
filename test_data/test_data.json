@@ -1,0 +1,16 @@
+{
+
+    "environment": "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login",
+    "manager_url": "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager",
+    "customer_url": "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer",
+    "firstName": "Demo",
+    "lastName": "user",
+    "postCode": "500125",
+    "browser": "Chrome",
+    "depositAmount": "500",
+    "withdrawlAmount": "500",
+    "existing_user":"Hermoine Granger",
+    "currency": "Dollar",
+    "screenshot": true
+
+}

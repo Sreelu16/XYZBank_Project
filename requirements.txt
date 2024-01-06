@@ -1,0 +1,17 @@
+pytest~=7.3.1
+selenium==4.16.0
+ipython
+openpyxl~=3.0.7
+allure-pytest
+allure-python-commons
+nose
+python-dotenv~=0.19.0
+pytest-testrail
+urllib3==1.26.5
+chromedriver-binary==79.0.3945.36
+pytest-html
+pytest-custom_exit_code
+boto3~=1.26.46
+python-dateutil~=2.8.2
+requests~=2.26.0
+psycopg2-binary~=2.9.6
