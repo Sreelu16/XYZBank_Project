@@ -5,6 +5,7 @@ from selenium import webdriver
 import os
 import test_data.testData as td
 from dotenv import load_dotenv
+from webdriver_manager.chrome import ChromeDriverManager
 
 load_dotenv()
 
@@ -32,16 +33,12 @@ class WebDriverFactory:
 
         elif self.browser == "Chrome":
 
-            driverLocation = os.path.abspath("../../drivers/Chrome/chromedriver.exe")
+            driver = webdriver.Chrome(ChromeDriverManager().install())  # WebDriverManager handles download and setup
             chrome_options = webdriver.ChromeOptions()
             chrome_options.add_argument('--headless')
             chrome_options.add_argument('--no-sandbox')
             chrome_options.add_argument('--disable-gpu')
             chrome_options.add_argument("ignore-certificate-errors")
-            if os.getenv('local'):
-                driver = webdriver.Chrome(executable_path=driverLocation)
-
-            print('here launching the browser')
 
         elif self.browser == "Edge":
             # Set Edge driver
